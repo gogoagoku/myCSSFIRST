@@ -1,0 +1,101 @@
+.main {
+        background-color: aqua;
+        background-image: url("./1.jpg");
+        background-repeat:no-repeat;
+        /* background-attachment: fixed; */
+        background-position: right top;
+        background-position: 50% 50%;
+        background-size: contain;
+        padding: 10px;
+        /* margin-top: -30px; */
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        border-width: 5px;
+        border-color: black red blue green;
+        border-style: solid;
+        /* border: red solid 6px; = ***all attributes together ****/
+        /* outline: 10 px blue solid; */
+        border-radius: 6px;
+        
+    }
+    .block  {
+                background-color: red;
+                padding: 10px;
+                margin: 10px;
+                width: 300px;
+                height: 30px;
+                /* display: none; */
+                /* visibility: hidden; */
+            }
+    span    {
+                background-color: blue;
+                width: 400px; /* not respect the widht and height*/
+                height: 400px;
+                padding: 10px;/*  respect margin and padding(left+right)*/
+                margin: 10px;
+               
+            }
+    .class1 {
+             /* background-color:#eee; */
+             color: blue;   
+             /* padding: 10px; */
+             border-bottom: 10px blue solid;
+             /* margin: 10px 0px; */
+            }
+    .class2 {
+        /* background-color: #eee; */
+        color: red;
+        /* padding: 10px; */
+        border-bottom: 10px red solid;
+        /* margin: 10px 0px; */
+    }
+    .class3 {
+        /* background-color: #eee; */
+        color: green;
+        /* padding: 10px; */
+        border-bottom: 10px green solid;
+        /* margin: 10px 0px; */
+            }
+    .class4 {
+            /* background-color: #eee; */
+            color: violet;
+            /* padding: 10px; */
+            border-bottom: 10px violet solid;
+            /* margin: 10px 0px; */
+            }
+            /* grouping multiple selectors */
+    .class1,.class2,.class3,.class4 {
+                                        background-color: #e09;
+                                            
+                                            padding: 20px;
+                                            
+                                            margin: 30px 0px;
+                                    }
+    .aymen
+            {
+                    background-color: beige;
+                    padding: 10px;
+                    /* display: inline-block; */
+
+                   /* min-width: 400px; */
+                   width: fit-content;
+                    text-shadow: 1px 2px 1px grey;
+                    
+            }
+
+    .lorem  {
+                width: 150px;
+                height: 150px;
+                background-color: bisque;
+                overflow: auto;
+                /* overflow-x: hidden; */
+                text-align: center;
+                direction: ltr;
+               
+            }
+            img{
+                vertical-align: top;
+                width: 60px;
+                height: 60px;
+            }
